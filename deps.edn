@@ -1,0 +1,4 @@
+{:mvn/repos {"babashka" {:url "https://repo.babashka.org"}}
+ :aliases {:nbb {:deps {io.github.babashka/nbb {:mvn/version "1.7.7"}
+                          promesa/promesa {:mvn/version "11.0.674"}}}
+               :agent {:main-opts ["-m" "agent"]}}}

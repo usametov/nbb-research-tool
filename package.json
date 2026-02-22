@@ -1,0 +1,23 @@
+{
+  "name": "l7-agent",
+  "version": "0.1.0",
+  "description": "Multi-agent system with Claude Agent SDK (ClojureScript/nbb)",
+  "main": "agent.js",
+  "scripts": {
+    "start": "nbb agent.cljs",
+    "repl": "nbb -e \"(require '[agent])\"",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.1.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "nbb": "^1.4.206"
+  },
+  "keywords": ["claude", "agent", "nbb", "clojurescript"],
+  "author": "",
+  "license": "MIT"
+}
